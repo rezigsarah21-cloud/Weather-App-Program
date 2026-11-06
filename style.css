@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherfrom{
+   margin: 20px;
+}
+.inputcity{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px solid hsla(0, 0%, 20%, 0.3);
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.citybutton{
+    font-size: 2rem;
+    font-weight: bold;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(120, 53%, 50%);
+    color: white;
+    cursor: pointer;
+}
+.citybutton:hover{
+    background-color: hsl(120, 53%, 55%);
+}
+.card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding:15px;
+    background: linear-gradient(180deg , rgb(92, 179, 234) , rgb(231, 193, 89)) ;
+    min-width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.696);
+}
+.citydis{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: hsla(0, 0%, 0%, 0.701);
+}
+.p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.citydis,.tempdis{
+     margin: 0;
+     font-size: 3rem;
+     font-weight: bold;
+     color: hsla(0, 0%, 0%, 0.75);
+     margin-bottom:25px;
+}
+.humdidis{
+    margin: 0;
+    font-weight: bold;
+    margin-bottom:25px;
+}
+.discdisplay{
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.imjofweth{
+    margin:0;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.errordisplay{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
